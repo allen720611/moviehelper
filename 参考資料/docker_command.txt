@@ -1,0 +1,33 @@
+
+容器使用的概念，就像是免洗筷跟衛生紙一樣
+不要的話就可以刪除
+需要的時後再拿(建)一個新的
+
+
+docker pull mysql  
+
+docker pull image
+
+
+docker pull centos:7
+pull selected tags(默認latest)
+
+
+docker images
+
+
+docker rm 
+delete container
+
+docker rmi
+delete image
+
+
+
+-p  對外連線
+
+
+
+
+資料對應(host folder:container folder)
+(Volume)
