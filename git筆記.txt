@@ -1,0 +1,40 @@
+如果電腦沒有git:
+ssh-keygen 
+之後一路enter ，把.ssh中的密碼（id_rsa.pub）放到github 中settings/ssh and gpg keys 
+ =>新增後即可
+
+
+git config --global user.name abcdefg
+
+
+git config --global user.email abcdefg@gmail.com
+
+查看設定狀況
+
+git config --list
+
+
+協作：
+fork 到自己的repo 中
+
+把repo下載到本地
+
+git clone +ssh
+
+
+本地修改完以後：
+
+查看變化：
+git status
+
+建立新版本：
+git add .
+
+git commit -m "變動"
+
+
+push 到自己的repo
+
+git push origin main 
+
+
